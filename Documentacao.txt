@@ -1,0 +1,18 @@
+Michel Diniz Medeiros
+Projeto de orientação a objetos 
+
+
+A ideia é criar algo próximo do minigame de cartas do Evoland 2.
+
+O jogo será jogado por dois jogadores. 
+
+O baralho vai conter 20 cartas
+5 com primeiro golpe - na resolução aliada causa dano primeiro
+5 com atirador - na resolução aliada ataca mesmo na retaguarda
+5 com geração de mana - gera uma mana na resolução
+5 com cura - cura a carta que tá na linha de frente dela
+
+Cada jogador vai ter 20 de vida 
+
+O jogo continua até um jogador chegar a 0 pontos de vida ou 15 rodadas 
+terem passado. 
