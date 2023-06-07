@@ -22,14 +22,23 @@ public class Main extends Application
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
+        try
+        {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Tela_inicial.fxml"));
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
+        
+        String css = this.getClass().getResource("Style.css").toExternalForm();
+        tela.getStylesheets().add(css);    
 
-        primaryStage.setTitle("Funciona carai");
+        primaryStage.setTitle("Jogo dos Milhões");
         primaryStage.setScene(tela);
         primaryStage.show();
-    
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();   
+        }    
     }
 }
 

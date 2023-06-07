@@ -1,0 +1,17 @@
+.root{
+    -fx-background-color: "blue";
+    
+}
+
+
+#pergunta{
+    -fx-font-size:20;
+    -fx-text-fill: "white";
+}
+
+#nome_do_jogo{
+    -fx-font-size:35;
+    -fx-text-fill: "white";
+
+}
+
