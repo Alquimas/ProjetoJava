@@ -7,19 +7,16 @@
 
 <AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="backbone.Controler">
    <children>
-      <Label fx:id="nome_do_jogo" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="586.0" text="Menu inicial">
+      <Label fx:id="nome_do_jogo" layoutX="143.0" layoutY="28.0" prefHeight="35.0" prefWidth="341.0" text="Jogo dos Milhões ( nome beta )">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="botoes_resposta" alignment="CENTER" layoutX="27.0" layoutY="150.0" mnemonicParsing="false" onAction="#botaoVerdade" text="Resposta" />
-      <Button fx:id="botoes_resposta" alignment="CENTER" layoutX="27.0" layoutY="200.0" mnemonicParsing="false" onAction="#botaoMentira" text="Resposta" />
-      <Button fx:id="botoes_resposta" alignment="CENTER" layoutX="27.0" layoutY="250.0" mnemonicParsing="false" onAction="#botaoMentira" text="Resposta" />
-      <Button fx:id="botoes_resposta" alignment="CENTER" layoutX="27.0" layoutY="300.0" mnemonicParsing="false" onAction="#botaoMentira" text="Resposta" />
-      <Button fx:id="botoes_resposta" alignment="CENTER" layoutX="27.0" layoutY="350.0" mnemonicParsing="false" onAction="#botaoMentira" text="Resposta" />
-      <Label fx:id="pergunta" layoutX="14.0" layoutY="81.0" text="Pergunta 1">
+      <Button fx:id="botaoLogin" alignment="CENTER" layoutX="274.0" layoutY="192.0" mnemonicParsing="false" onAction="#botaoLogin" text="Um Jogador" />
+      <Button fx:id="botaoLogin" layoutX="266.0" layoutY="284.0" mnemonicParsing="false" text="Dois Jogadores" />
+      <Label fx:id="subTitulo" layoutX="198.0" layoutY="131.0" text="Selecione quantos jogadores:">
          <font>
-            <Font size="25.0" />
+            <Font size="18.0" />
          </font>
       </Label>
    </children>
