@@ -6,15 +6,14 @@ import javafx.fxml.FXMLLoader;
 //import javax.print.attribute.standard.PrinterMakeAndModel;
 
 import javafx.application.Application;
-//import javafx.event.ActionEvent;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-//import javafx.scene.control.Button;
-//import javafx.scene.layout.StackPane;
+
 import javafx.stage.Stage;
 
 public class Main extends Application
 {
+    Jogador p[] = new Jogador[2];
     public static void main(String[] args) throws Exception 
     {
         launch(args);
@@ -24,6 +23,7 @@ public class Main extends Application
     public void start(Stage primaryStage) throws Exception {
         try
         {
+        //Jogador p[] = new Jogador[2];
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Tela_inicial.fxml"));
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
