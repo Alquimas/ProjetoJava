@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="backbone.Controler">
+   <children>
+      <Label fx:id="subTitulo" layoutX="171.0" layoutY="117.0" text="Escreva o nome do jogador 1: ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomeJogador" layoutX="264.0" layoutY="219.0" />
+      <Button fx:id="botao_do_login" layoutX="305.0" layoutY="298.0" mnemonicParsing="false" onAction="#botaoComecar" text="Confirmar" />
+   </children>
+</AnchorPane>
