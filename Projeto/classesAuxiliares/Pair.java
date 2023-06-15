@@ -44,15 +44,15 @@ public class Pair {
         return (11 * (this.primeiro) + this.segundo);
         // explicação simples de porquê esse hash funciona PRA ESSE CASO
         // Estamos mapeando APENAS pares ordenados com primeira entrada
-        // entre 0 e 2 e segunda entrada entre 0 e 4
-        // 5*primeiro + segundo resulta sempre em número único dadas essas
+        // entre 0 e 2 e segunda entrada entre 0 e 7 no máximo dado o banco atual
+        // 11*primeiro + segundo resulta sempre em número único dadas essas
         // condições (teorema fundamental da aritmética)
         // PORÉM esse seria um código hash PÉSSIMO caso a segunda entrada fosse
-        // aumentada pra 5, por exemplo
-        // pois 5*0 + 5 e 5*1 + 0 já dariam colisão
+        // aumentada pra 13, por exemplo
+        // pois 11*0 +1 e 11*1 + 0 já dariam colisão
         // no fim do dia, qualquer classe pair que recebe entrada entre (0, a)
-        // e (0, b) tem hash simples dado como k*a + b, onde k é o menor primo maior
-        // que ambos a e b (fácil de provar pelo teorema fundamental da aritmética)
+        // e (0, b) tem hash simples dado como k*a + b, onde k é um número maior que a e b
+        // garantindo que k*a + b é a fatoração de um número na base k, que é única.
     }
 
 }
