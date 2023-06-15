@@ -26,7 +26,7 @@ public abstract class entraOpcao extends scan
         }
         else
         {
-            System.out.print("Opção inválida!");
+            System.out.println("Opção inválida!");
             try
             {
                 Thread.sleep(1000);
