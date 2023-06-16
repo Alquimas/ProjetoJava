@@ -1,5 +1,5 @@
 # ProjetoJava
-# Projeto para a cadeira de linguagem de programação I.
+Projeto simples de um quiz em Java com outputs no terminal.
 # Equipe:
 Michel Diniz Medeiros
 
